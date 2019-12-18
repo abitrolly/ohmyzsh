@@ -96,6 +96,7 @@ plugins=(... git)
 | `gga`                  | `git gui citool --amend`                                                                                                        |
 | `ghh`                  | `git help`                                                                                                                      |
 | `glgg`                 | `git log --graph`                                                                                                               |
+| 'gla'                  | 'git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all |
 | `glgga`                | `git log --graph --decorate --all`                                                                                              |
 | `glgm`                 | `git log --graph --max-count=10`                                                                                                |
 | `glod`                 | `git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'`                        |
